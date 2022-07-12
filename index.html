@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccination</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h2 class="nav__title">Vaccination</h2>
+            <ul class="nav__enlaces nav__toogle" id="nav__enlaces">
+                <li class="nav__enlace">
+                    <a href="#" class="nav__item">Database</a>
+                </li>
+                <li class="nav__enlace">
+                    <a href="#" class="nav__item">Education</a>
+                </li>
+                <li class="nav__enlace"><a href="#" class="nav__item">News</a></li>
+                <li class="nav__enlace">
+                    <a href="#" class="nav__item">Regulation</a>
+                </li>
+                <li class="nav__enlace nav__enlace--boton">
+                    <a href="#" class="nav__item nav__item--boton">Hoax Buster</a>
+                </li>
+                <li class="nav__enlace nav__enlace--responsive">
+                    <a href="#" class="nav__item">Hoax Buster</a>
+                </li>
+            </ul>
+
+            <div class="nav__bar-menu" id="nav__bar">
+                <i class="fa-solid fa-bars fa-solid--nav"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="section1__texto">
+                <h1 class="section1__title">Fight Virus With Vaccines</h1>
+                <p class="section1__parrafo">
+                    Let's stop this pandemic by killing the virus with a vaccine, don't
+                    let yourself and your family get infected
+                </p>
+                <div class="section1__iconos">
+                    <div class="section1__icon">
+                        <i class="fa-solid fa-shield-halved fa-solid--gold"></i>
+                        <span class="section1__span">Best protection</span>
+                    </div>
+                    <div class="section1__icon">
+                        <i class="fa-solid fa-star fa-solid--gold"></i>
+                        <span class="section1__span">Selected Vaccines</span>
+                    </div>
+                </div>
+                <div class="section1__schedule">
+                    <div class="section1__schedule-text" id="schedule-text">
+                        <i class="fa-solid fa-clock"></i>
+                        <span class="section1__span section1__span--plus">Schedule your vaccinations</span>
+                    </div>
+                    <div class="schedule-box schedule-toggle" id="schedule-box">
+                        <div class="schedule-box__item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="section1__span">Location</span>
+                            <p class="schedule-box__text">Jakarta Utara</p>
+                        </div>
+
+                        <div class="schedule-box__item">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span class="section1__span">Date</span>
+                            <p class="schedule-box__text">08 July 2021</p>
+                        </div>
+
+                        <div class="schedule-box__item">
+                            <i class="fa-solid fa-pen"></i>
+                            <span class="section1__span">Vaccine Type</span>
+                            <p class="schedule-box__text">Moderna</p>
+                        </div>
+
+                        <div class="shcedule-box__item">
+                            <a href="#" class="button">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section1__imagen">
+                <img src="img/enfermera.jpg" alt="enfermera" />
+            </div>
+        </section>
+
+
+        <section class="section2 container">
+            <div class="section2__container">
+                <img class="section2__img" src="img/astra.png" alt="AztraZeneca logo">
+            </div>
+            <div class="section2__container">
+                <img class="section2__img" src="img/sinovac.png" alt="Sinovac logo">
+            </div>
+            <div class="section2__container">
+                <img class="section2__img" src="img/pfizer.png" alt="Pfizer logo">
+            </div>
+            <div class="section2__container">
+                <img class="section2__img" src="img/moderna.png" alt="Moderna logo">
+            </div>
+        </section>
+
+        <section class="section3 container">
+            <article class="article">
+                <h2 class="article__title">Why should I vaccine</h2>
+                <p class="article__parrafo">In order to avoid any doubts about getting the COVID-19 vaccine, identify
+                    the following 4 benefits of COVID-19 vaccination :</p>
+            </article>
+
+            <div class="section3__cards">
+                <div class="card">
+                    <i class="fa-solid fa-bars-staggered fa-solid--plus"></i>
+                    <p class="card__title">Minimize the spread of viruses</p>
+                    <p class="card__parrafo">Vaccine has been proven effective to prevent someone from getting infected
+                        with Coronavirus</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-shield-halved fa-solid--plus"></i>
+                    <p class="card__title">Forming antibodies</p>
+                    <p class="card__parrafo">COVID-19 vaccine proven to help shape antibody response for immune system
+                    </p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-users fa-solid--plus"></i>
+                    <p class="card__title">Protecting people nearby</p>
+                    <p class="card__parrafo">The benefits of COVID-19 vaccination are the vaccine that we get can also
+                        help protect people around us</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-square-up-right fa-solid--plus"></i>
+                    <p class="card__title">Creating group immunity</p>
+                    <p class="card__parrafo">COVID-19 vaccination is also beneficial for creating group immunity or herd
+                        immunity</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section4 container">
+            <div class="section4__text">
+                <article class="article article--100">
+                    <h2 class="article__title">
+                        Emergency Contact
+                    </h2>
+                    <p class="article__parrafo">
+                        Contact one of the contacts below if you or your family feel unwell and have similar symptoms such
+                        as Covid-19, make sure you also take care of yourself before reporting to us :
+                    </p>
+                </article>
+
+                <div class="section4__cards-2">
+                    <div class="card-2">
+                        <div class="card-2__top">
+                            <i class="fa-solid fa-phone fa-solid--plus"></i>
+                            <div class="card-2__top-title">
+                                <p class="card-2__title">Call</p>
+                                <p class="card-2__subtitle">021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="card-2__button">Call now</a>
+                        
+                    </div>
+
+                    <div class="card-2">
+                        <div class="card-2__top">
+                            <i class="fa-solid fa-comment-dots fa-solid--plus"></i>
+                            <div class="card-2__top-title">
+                                <p class="card-2__title">Chat</p>
+                                <p class="card-2__subtitle">021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="card-2__button">Chat now</a>
+                        
+                    </div>
+
+                    <div class="card-2">
+                        <div class="card-2__top">
+                            <i class="fa-solid fa-video fa-solid--plus"></i>
+                            <div class="card-2__top-title">
+                                <p class="card-2__title">Video Call</p>
+                                <p class="card-2__subtitle">021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="card-2__button">Video Call Now</a>
+                        
+                    </div>
+
+                    <div class="card-2">
+                        <div class="card-2__top">
+                            <i class="fa-solid fa-envelope fa-solid--plus"></i>
+                            <div class="card-2__top-title">
+                                <p class="card-2__title">Message</p>
+                                <p class="card-2__subtitle">021.123.145.14</p>
+                            </div>
+                        </div>
+                        <a href="#" class="card-2__button">Message Now</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section4__img-container">
+                <img src="img/male-nurse.png" alt="Male nurse" class="section4__img">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__left">
+                    <div class="footer__text">
+                        <h3 class="footer__title">
+                            Vaccination
+                        </h3>
+                        <p class="footer__subtitle">
+                            Our goal is to help the world free from the ongoing pandemic
+                        </p>
+                    </div>
+
+                    <p class="footer__copyright">
+                        @2021 Vacinnation. All rights reserved
+                    </p>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__listas">
+                        <ul class="footer__list">
+                            <li class="footer__item"><p class="footer__list-title">About</p></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">About us</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Features</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">News & Blog</a></li>
+                        </ul>
+    
+                        <ul class="footer__list">
+                            <li class="footer__item"><p class="footer__list-title">Company</p></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">How We Work?</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Capital</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Security</a></li>
+                        </ul>
+    
+                        <ul class="footer__list">
+                            <li class="footer__item"><p class="footer__list-title">Support</p></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">FAQs</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Support Center</a></li>
+                            <li class="footer__item"><a href="" class="footer__enlace">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__final">
+                            <a href="" class="footer__enlace">Terms & Agreements</a>
+                            <a href="" class="footer__enlace">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
