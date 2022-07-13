@@ -13,7 +13,6 @@ html{
 
 body{
     font-family: 'Outfit', sans-serif;
-    overflow-x: hidden;
 }
 
 /*---------HEADER---------*/
@@ -22,6 +21,7 @@ body{
     height: 14vh;
     position: absolute;
     background-color: #fffd;
+    
 }
 
 .container{
@@ -435,6 +435,10 @@ main{
         font-size: 110%;
     }
 
+    .header{
+        height: 10vh;
+    }
+
     .nav__bar-menu{
         display: block;
     }
@@ -442,15 +446,17 @@ main{
     .nav__enlaces{
         flex-direction: column;
         position: absolute;
-        top: 14vh;
+        top: 10vh;
         right: 0px;
         background-color: #fff;
-        transform: translateX(100%);
+        height: 0px;
+        z-index: 999;
+        overflow: hidden;
         transition: all .4s;
     }
 
     .nav__toggle{
-        transform: translateX(0);
+        height: auto;
     }
 
     .nav__enlace--responsive{
@@ -464,6 +470,7 @@ main{
     .section1__texto{
         width: 75%;
     }
+
 
 }
 
